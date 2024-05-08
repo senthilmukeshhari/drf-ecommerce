@@ -5,10 +5,12 @@ python-dotenv==1.0.1
 djangorestframework==3.14.0
 pytest==8.2.0
 pytest-django==4.8.0
-black==24.4.2
+black==22.12.0
 flake8==7.0.0
 
 # Commands
+
+py -m venv venv
 
 ./venv/Scripts/activate
 
