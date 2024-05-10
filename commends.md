@@ -7,6 +7,7 @@ pytest==8.2.0
 pytest-django==4.8.0
 black==22.12.0
 flake8==7.0.0
+drf-spectacular==0.27.2
 
 # Commands
 
