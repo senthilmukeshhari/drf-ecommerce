@@ -8,6 +8,9 @@ pytest-django==4.8.0
 black==22.12.0
 flake8==7.0.0
 drf-spectacular==0.27.2
+coverage==7.5.3
+pytest-cov==5.0.0
+factories==1.2.0
 
 # Commands
 
@@ -28,3 +31,5 @@ py manage.py migrate
 py manage.py createsuperuser
 
 py manage.py runserver
+
+coverage run -m pytest
